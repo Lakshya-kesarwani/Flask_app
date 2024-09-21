@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/homepage.css">
+</head>
+<body>
+    <nav>
+        <span id="logo">
+           <a href="/"> <img src="/static/logo.jpg" alt=""></a>
+        <P  id="nav-text">Expert Tech Support at Your Service</P>
+        <form action="/admin">
+            <button>LOGOUT</button>
+        </form>
+        </span>
+    </nav>
+    <div id="main-body">
+        <h1>Admin Dashboard</h1>
+        <ul>
+            {% for issue in issues %}
+            <li>
+                <strong style="color:rgb(59, 101, 138)">Issue ID :</strong> {{ issue.id }} <br>
+                <strong>Name:</strong> {{ issue.doctor_name }} <br>
+                <strong>Email:</strong> {{ issue.available_day }} <br>
+                <strong>Mobile:</strong> {{ issue.start_time }} <br>
+                <strong>Issue:</strong> {{ issue.end_time }} <br>
+                <br>
+                <br>
+                <br>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
