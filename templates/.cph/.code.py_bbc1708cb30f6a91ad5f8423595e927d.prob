@@ -1,0 +1,1 @@
+{"name":"Local: code","url":"d:\\Project\\Doctor\\Flask_app\\templates\\code.py","tests":[{"id":1726993095312,"input":"4\n2 2\n2 0\n3 2\n3 0 0\n6 2\n0 3 0 0 0 0\n2 5\n5 4","output":"1\n2\n3\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Project\\Doctor\\Flask_app\\templates\\code.py","group":"local","local":true}

@@ -1,0 +1,13 @@
+*{
+    background-color: #a4d0ee;
+}
+nav p, nav{
+    background-color: #fff;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    /* align-content:space-around; */
+}
